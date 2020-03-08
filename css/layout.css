@@ -1,0 +1,99 @@
+@font-face{
+    src: url(../fonts/sequelff/Sequel-Regular.ttf);
+    font-family: "sequil";
+}
+
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+    font-family: "all";
+}
+@font-face {
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "Sacramento";
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+    font-family: "all";
+}
+.logo{
+    height: 70px;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.active .nav-link{
+    color: white !important;
+}
+.site-content{
+    background-image: url(../img/cover\ \(2\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title, .site-desc{
+    color: white;
+    font-family: "sequil";
+
+}
+.layout{
+    text-align: center;
+}
+.site-title{
+    padding-top: 50px;
+    margin-top: 0%;
+    font-size: 50px;
+    
+}
+.site-desc{
+    font-size: 14px;
+}
+.site-btn1{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+.site-btn2{
+    background-color: white;
+   
+}
+.site-btn1, .site-btn2{
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+
+/*section 1*/
+.section-1{
+    position: absolute;
+    background-size: inherit;
+    background-color: rgba(174, 225, 241, 0.123);
+    
+}
+.p{
+    padding-bottom: 10px;
+}
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(52, 52, 243, 0.541);
+}
+
+
+
+/*footer*/
+.fa{
+    border: floralwhite;
+    width: 50px;
+    padding-right: 20px;
+    color: whitesmoke;
+}
+footer{
+    background-color: rgba(73, 73, 255, 0.671);
+    font-family: "all";
+}
+
